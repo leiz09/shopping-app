@@ -1,0 +1,436 @@
+
+
+* {
+    margin: 0;
+    cursor: auto;
+    font-family: 'Segoe UI';
+
+}
+
+body {
+    overflow-y:scroll;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.left {
+    display: flex;
+    width: 40%;
+}
+.right {
+    display: flex;
+    width: 40%;
+}
+.center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.item {
+    flex: 1;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item,
+a {
+    cursor: pointer;
+}
+
+header button {
+    margin-left: 10px;
+    
+}
+
+.item:hover {
+    
+    background-color: #ccc;
+}
+header img {
+    height: 15px;
+    width: 15px;
+}
+
+body {
+    margin: 0;
+    cursor: auto;
+    font: inherit;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+.all {
+    height: 300px;
+}
+
+
+
+.container{
+    display: flex;
+}
+
+.categories {
+    flex-basis: 40%;
+}
+
+.products {
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header button {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+
+}
+header button:hover {
+    background-color: #d6d6d6;
+}
+
+.links-group {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.links-group h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+    position: relative; 
+}
+
+.links-group::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px; 
+    height: 120%; 
+    background-color: #ccc; 
+}
+
+.Products button:hover {
+    opacity: 95%;
+}
+
+
+.left {
+flex: 1;
+display: flex;
+justify-content: flex-start;
+height: auto;
+}
+
+.center {
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+}
+
+.right {
+flex: 1;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.logo {
+width: 100px;
+}
+a {
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+div a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #000;
+    
+}
+header div a::after, nav a::before {
+    box-sizing: border-box;
+}
+
+header div a:hover {
+    background-color: #f8f9fa;
+}
+
+
+div a svg {
+margin-right: 5px;
+}
+
+#Toggle {
+border: 2px solid #ccc;
+padding: 10px;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#sign_in {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1;
+    background-color: #228be6;
+    border: 0.625rem solid #228be6;
+    padding: 2px 7px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.container button {
+border: none;
+background-color: transparent;
+cursor: pointer;
+}
+
+.container button img {
+width: 24px;
+height: 24px;
+}
+
+.container button:hover {
+background-color: #f0f0f0;
+}
+
+.products {
+    box-sizing: border-box;
+}
+
+
+.categories {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.products {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    padding-right: 10px;
+}
+
+.all {
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    float: left;
+}
+p {
+    float: left;
+    padding-bottom: 15px;
+}
+svg {
+    float: left;
+    padding-right: 10px;
+}
+
+ul {
+    font-size: 14px;
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 55px 15px 1px;
+}
+li {
+    list-style: none;
+    width: 80%;
+    padding-left: 15px;
+    border-left: 0.0625rem solid #e9ecef;
+    border-radius: 5px;
+    padding: 10px 100px 10px 15px;
+}
+li:hover {
+    background-color: #f0f0f0;
+}
+.separator {
+    display: block;
+    border-top: 1px solid #e9ecef;
+    margin-top: 10px;
+    clear: both;
+    padding-bottom: 10px;
+    width: 100%;
+}
+label {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+.all span {
+    color: red;
+    font-weight: 600;
+}
+input{
+display: block;
+width: 100%;
+text-align: left;
+border: 1px solid #cabcbd;
+background-color: transparent; 
+line-height: normal;
+font-size: 1rem;
+border-radius: 5px; 
+padding-left: 10px; 
+padding-top: 5px; 
+padding-bottom: 5px; 
+cursor: auto; 
+}
+input::placeholder {
+    color: #cabcbd;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .cont {
+    display: flex;
+    height: 100vh;
+  }
+  
+  
+  .all {
+    flex: 1;
+  }
+  
+  .Products {
+    flex: 1;
+    margin-left: 65vh;
+  }
+
+
+  .Products {
+    margin-top: 100px;
+    display: flex;
+    
+}
+
+.img {
+    width: auto;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+.card {
+    flex: 1 1 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 300px;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.name {
+    margin-top: 10px;
+}
+
+.price {
+    margin-top: 10px;
+}
+
+.button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1;
+    color: white;
+    background-color: #228be6;
+    border: 0.625rem solid #228be6;
+    padding: 2px 7px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .price {
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.card .buttons {
+    display: flex;
+    gap: 5px;
+    margin-left: auto; 
+}
+.card {
+    flex: 1 1 300px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .price {
+    font-weight: bold;
+}
+
+.card .buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.card + .card {
+    margin-top: 40px;
+}
+
+
+.card + .card {
+    margin-top: 40px; 
+}
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
