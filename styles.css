@@ -434,3 +434,75 @@ body, html {
     flex-wrap: wrap;
     gap: 20px; 
 }
+
+.dark-theme {
+    background-color: #242424;
+    color: #ffffff;
+}
+
+.dark-theme header {
+    border-bottom: 1px solid #999;
+}
+
+.dark-theme .left h1 {
+    color: #fff;
+}
+
+.dark-theme .center a {
+    color: #fff;
+}
+
+.dark-theme .right button {
+    background-color: #444;
+    border-color: #444;
+    color: #fff;
+}
+
+.dark-theme .right button:hover {
+    background-color: #666;
+}
+
+.dark-theme .separator {
+    border-top-color: #999;
+}
+
+.dark-theme label,
+.dark-theme span,
+.dark-theme p,
+.dark-theme input::placeholder {
+    color: #ccc;
+}
+
+/* Nowe style dla kategorii i bordera */
+.dark-theme .box a {
+    color: #fff; /* Kolor tekstu dla boxów z kategoriami */
+}
+.dark-theme a:hover,
+.dark-theme li:hover {
+    background-color: #666;
+}
+.dark-theme header a:hover {
+    background-color: #666;
+}
+.dark-theme .box,
+.dark-theme .separator {
+    border-color: #666; /* Kolor obramowania dla boxów i separatorów */
+}
+
+#Toggle {
+    border: 2px solid #ccc;
+    padding: 0; /* Usunięcie wypełnienia */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Toggle svg {
+    cursor: pointer;
+}
+
+#Toggle > * {
+    margin: 8px; /* Usunięcie marginesów dla wszystkich dzieci przycisku Toggle */
+    padding: 0; /* Usunięcie wypełnienia dla wszystkich dzieci przycisku Toggle */
+}
+

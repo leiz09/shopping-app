@@ -68,3 +68,9 @@ fetch("https://api.escuelajs.co/api/v1/products")
         console.error("Error fetching categories:", error);
     });
 
+    const toggleButton = document.getElementById('Toggle1');
+    const body = document.body;
+
+    toggleButton.addEventListener('click', () => {
+        body.classList.toggle('dark-theme');
+    });
